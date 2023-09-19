@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "@types/node": "^20.6.2",
+    "vite-plugin-dts": "^3.5.3"
+  }
+}

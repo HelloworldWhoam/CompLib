@@ -1,0 +1,31 @@
+{
+  "name": "afish-ui",
+  "private": false,
+  "version": "1.0.0",
+  "type": "module",
+
+  "main": "./dist/index.cjs",
+
+  "umd:main": "dist/index.umd.js",
+
+  "module": "./dist/index.js",
+
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vue-tsc": "^1.8.5"
+  },
+  "files": [
+    "dist"
+  ]
+}
